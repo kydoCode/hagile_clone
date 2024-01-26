@@ -160,22 +160,22 @@
                 }
 
                 main section:nth-child(4) article:nth-child(1) {
-                    background-image: url(/06_Hagile_16012024/images/01\ \(1\).png);
+                    background-image: url(/03_LP_ALC_Projects/01/06_Hagile_16012024/images/01\ \(1\).png);
                     background-repeat: no-repeat;
                 }
 
                 main section:nth-child(4) article:nth-child(2) {
-                    background-image: url(/06_Hagile_16012024/images/02.png);
+                    background-image: url(/03_LP_ALC_Projects/01/06_Hagile_16012024/images/02.png);
                     background-repeat: no-repeat;
                 }
 
                 main section:nth-child(4) article:nth-child(3) {
-                    background-image: url(/06_Hagile_16012024/images/03.png);
+                    background-image: url(/03_LP_ALC_Projects/01/06_Hagile_16012024/images/03.png);
                     background-repeat: no-repeat;
                 }
 
                 main section:nth-child(5){
-                    background-image: url(/06_Hagile_16012024/images/Photo-accueil.jpg);
+                    background-image: url(/03_LP_ALC_Projects/01/06_Hagile_16012024/images/Photo-accueil.jpg);
                     background-repeat: no-repeat;
                     background-attachment: fixed;
                     background-position: center;
@@ -236,16 +236,22 @@
 
                 main section:nth-child(6) article form input {
                     max-width: 100%;
-                    margin: 20px auto;
+                    /* margin: 20px auto; */
                     background-color: transparent;
                     border: 2px solid var(--white-color);
                     border-color: var(--white-color);
                     border-radius: 30px;
-                    padding: 10px 30%;
+                    padding: 2% 22%;
                     display: inline-block;
                     color:var(--white-color);
-                    /* text-align: left;*/
+                    text-align: center;
+                    /* width: 60px; */
                 }
+
+                /* 
+                main section:nth-child(6) article form input value {
+                    text-align: center;
+                } */
 
                /* main section:nth-child(6) a{
                     color:var(--orange-color);
@@ -257,10 +263,38 @@
                     margin: 20px 0px;
                 }
 
-                main section:nth-child(6) article:nth-child(1) form input>value {
+                main section:nth-child(6) article:nth-child(1) form input{
                     text-align: left;
                 }
 
+                main section:nth-child(6) article:nth-child(1) form input textarea {
+                    margin: auto;
+                }
+
+                main section:nth-child(6) article:nth-child(2) div article :nth-child(2) {
+                    color:var(--orange-color);
+                }
+
+                main section:nth-child(6) article:nth-child(2) div article a {
+                    color:var(--orange-color);
+                    transition: all 0.2s;
+                }
+
+                main section:nth-child(6) article:nth-child(2) div article a:hover {
+                    color:var(--orange-color);
+                    transition: all 0.2s;
+                    opacity: 0.8;
+                }
+
+                main section:nth-child(6) article:nth-child(1) form .btn {
+                    color:var(--orange-color);
+                    border-color: var(--orange-color);
+                }
+
+                main section:nth-child(6) article:nth-child(1) form .btn:hover {
+                    color:var(--white-color);
+                    border-color: var(--white-color);
+                }
                 /* FOOTER */
 
                 footer {
