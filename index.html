@@ -71,25 +71,27 @@
                         <h2>Nous contacter</h2>
 
                         <form method="post" action="/traitement.php">
+              
+                            <label for="user-company">Votre société</label>
+                            <input type="text" id="user-company" name="user-company" value="Comment se nomme votre société">
+                            
+                            <label for="user-first-last-name">Vos informations</label>
+                            <input type="text" id="user-first-last-name" name="user-first-last-name" value="Comment vous appelez-vous ?">
+                            
+                            <label for="user-mail">Votre mail</label>
+                            <input type="text" id="user-mail" name="user-mail" value="A quelle adresse mail pouvons-nous vous joindre ?">
+                            
+                            <label for="user-phone">Votre numéro de téléphone</label>
+                            <input type="text" id="user-phone" name="user-phone" value="Sur quel numéro de téléphone pouvons-nous vous joindre ?">
+                        
+                            <label for="user-request">Votre demande</label>
+                            <input type="textarea" id="user-request" name="user-request" value="Dites-nous pour quelle raison vous nous contactez.">
 
-                            <label for="user-company">Votre société</label><br>
-                            <input type="text" id="user-company" name="user-company" value="Comment se nomme votre société"><br>
-                            
-                            <label for="user-first-last-name">Vos informations</label><br>
-                            <input type="text" id="user-first-last-name" name="user-first-last-name" value="Comment vous appelez-vous ?"><br>
-                            
-                            <label for="user-mail">Votre mail</label><br>
-                            <input type="text" id="user-mail" name="user-mail" value="A quelle adresse mail pouvons-nous vous joindre ?"><br>
-                            
-                            <label for="user-phone">Votre numéro de téléphone</label><br>
-                            <input type="text" id="user-phone" name="user-phone" value="Sur quel numéro de téléphone pouvons-nous vous joindre ?"><br>
-                            
-                            <label for="user-request">Votre demande</label><br>
-                            <input type="textarea" id="user-request" name="user-request" value="Dites-nous pour quelle raison vous nous contactez."><br>
-                            
                             <p>Protection des données</p>
-                            <input type="checkbox" id="rgpd-consent" name="rgpd-consent" value="user-consent-confirmed">
-                            <label for="rgpd-consent">En soumettant ce formulaire, j'accepte que les informations saisies soient transmises par mail au seul destinataire de Hagile® dans le but d'être recontacté concernant la demande effectuée. Je comprends que j'ai un droit de modification, d'accès et de suppression de mes informations personnelles.</label>
+                            <!-- <article id="check-consent">-->
+                            
+                            <label for="rgpd-consent"><input type="checkbox" id="rgpd-consent" name="rgpd-consent" value="user-consent-confirmed"> En soumettant ce formulaire, j'accepte que les informations saisies soient transmises par mail au seul destinataire de Hagile® dans le but d'être recontacté concernant la demande effectuée. Je comprends que j'ai un droit de modification, d'accès et de suppression de mes informations personnelles.</label>
+                          
                             <input type="submit" value="Envoyer" class="btn">
                         </form>
                         </article>

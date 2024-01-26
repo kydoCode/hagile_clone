@@ -65,16 +65,29 @@
 
                 form {
                     text-align: left;
+                    width: 100%;
+                    display: grid;
+                    gap: 20px;
                 }
 
-                input[type="text"] {
+                #check-consent{
+                    vertical-align: middle;
+                }
+
+               /* input[type="text"] {
                     text-align: left;
                 }
 
                 input[type="textarea"] {
                     text-align: left;
+                } */
+                
+                /* label,input[type="checkbox"]
+                {
+                    display: inline-block;
+                    vertical-align: middle;
                 }
-
+                */
                 /* HEADER */
                 
                 header {
@@ -228,7 +241,7 @@
                     grid-template-columns: repeat(2, 1fr);
                     gap: 40px;
                     color:var(--white-color);
-                    margin: 60px 20px;
+                    /* margin: 60px 20px; */
                 }
 
                 main section:nth-child(6) article {
@@ -236,11 +249,11 @@
                     padding: 10px 20px;
                 }
 
-                main section:nth-child(6) label,  main section:nth-child(6) input,  main section:nth-child(6) p {
+                /* main section:nth-child(6) label,  main section:nth-child(6) input,  main section:nth-child(6) p {
                     /* padding: 10px 25px; */
-                    margin: 10px 25px;
-                } 
-
+                    /* margin: 10px 25px;
+                } */ 
+                
                 main section:nth-child(6) a .credentials {
                     color:var(--orange-color);
 
@@ -254,10 +267,10 @@
                     border-color: var(--white-color);
                     border-radius: 30px;
                     padding: 2% 2% 2% 2%;
-                    display: inline-block;
+                    /* display: inline-block;*/
                     color:var(--white-color);
                     text-align: left;
-                    width: 90%;
+                    /* width: 90%; */
                 }
 
                 /* 
@@ -312,6 +325,11 @@
                     color:var(--white-color);
                     border-color: var(--white-color);
                 }
+
+                main section:nth-child(6) article form div {
+                    width: auto;
+                }
+
                 /* FOOTER */
 
                 footer {
