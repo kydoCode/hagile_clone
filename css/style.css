@@ -201,22 +201,22 @@
                 }
 
                 main section:nth-child(4) article:nth-child(1) {
-                    background-image: url(/03_LP_ALC_Projects/01/06_Hagile_16012024/images/01\ \(1\).png);
+                    background-image: url(../images/01\ \(1\).png);
                     background-repeat: no-repeat;
                 }
 
                 main section:nth-child(4) article:nth-child(2) {
-                    background-image: url(/03_LP_ALC_Projects/01/06_Hagile_16012024/images/02.png);
+                    background-image: url(../images/02.png);
                     background-repeat: no-repeat;
                 }
 
                 main section:nth-child(4) article:nth-child(3) {
-                    background-image: url(/03_LP_ALC_Projects/01/06_Hagile_16012024/images/03.png);
+                    background-image: url(../images/03.png);
                     background-repeat: no-repeat;
                 }
 
                 main section:nth-child(5){
-                    background-image: url(/03_LP_ALC_Projects/01/06_Hagile_16012024/images/Photo-accueil.jpg);
+                    background-image: url(../images/Photo-accueil.jpg);
                     background-repeat: no-repeat;
                     background-attachment: fixed;
                     background-position: center;
